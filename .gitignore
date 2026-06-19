@@ -1,0 +1,27 @@
+# --- Vivado Temporary and Log Files ---
+*.log
+*.jou
+*.str
+*.Xil/
+*.dir/
+xsim.dir/
+.Xil/
+
+# --- Simulation and Compilation Junk ---
+launch_sim.log
+xvlog.log
+xelab.log
+xsim.log
+webtalk*.log
+webtalk*.jou
+xvlog.pb
+xelab.pb
+
+# --- Project Implementation Backups ---
+*.backup.*
+.analytics/
+fsm_encoding.json
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
